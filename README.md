@@ -1,5 +1,14 @@
 # Quick Start Guide - Agentic User Management Platform (FastAPI + FastMCP)
 
+## Output
+
+<img width="999" height="832" alt="image" src="https://github.com/user-attachments/assets/e51fa280-220a-4f3c-85e7-53aec7a4ee92" />
+
+### Sample Prompt :
+1.  call the create_user tool and create user with name is Charlie Davis and email id is bob@example.com and it's had role Admin and tell me what tool return response.
+2.  Call the ping tool and tell me what string it returns. 
+3.  List all users and show me their IDs, names, emails, and roles in a table format.
+
 ## 🚀 How to Run
 
 ### Step 1: Start Both Servers
