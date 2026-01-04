@@ -1,0 +1,10 @@
+{
+    "mcpServers": {
+        "user-crud": {
+            "command": "c:/Users/Admin/.vscode/FASTMCP/fastmcp-user-crud/venv/Scripts/python.exe",
+            "args": [
+                "c:/Users/Admin/.vscode/FASTMCP/fastmcp-user-crud/user_crud_server.py"
+            ]
+        }
+    }
+}
