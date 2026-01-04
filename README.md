@@ -4,12 +4,6 @@
 
 ### Step 1: Start Both Servers
 
-Open PowerShell in the `FASTAPI` folder and run:
-
-```powershell
-.\start_servers.ps1
-```
-
 This will open **two terminal windows**:
 - **Terminal 1**: FastMCP Server (Port 8001)
 - **Terminal 2**: FastAPI WebSocket Server (Port 8000)
