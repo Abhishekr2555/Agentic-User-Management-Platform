@@ -15,16 +15,19 @@ groq_model = GroqModel(
 
 mcp_server = MCPServerSSE(
     url="http://localhost:8001/sse"
-)
+)   
 
 weather_agent = Agent(
     model=groq_model,
     system_prompt=(
         "You are a helpful user management assistant. "
         "You can create, read, update, delete, and list users. "
+        "You have access to a 'run_bot' tool that triggers external bots. "
+        # "If a user provides a URL and optionally a JSON payload, use the 'run_bot' tool. "
         "Always confirm actions before performing destructive operations like deletions. "
         "When creating users, make sure to get all required information (name and email). "
         "Be friendly and professional in your interactions."
     ),
+    
     toolsets=[mcp_server],
 )
